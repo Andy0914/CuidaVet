@@ -2,8 +2,8 @@ package cuidavet.proyecto.cuidavet.ui.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import cuidavet.proyecto.cuidavet.data.LoginDataSource
-import cuidavet.proyecto.cuidavet.data.LoginRepository
+import cuidavet.proyecto.cuidavet.ui.login.data.LoginDataSource
+import cuidavet.proyecto.cuidavet.ui.login.data.LoginRepository
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

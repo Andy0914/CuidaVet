@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Calendario">
+    tools:context=".CambiarDatos">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/atras"
@@ -24,38 +23,29 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/tituloCalendario"
-        android:layout_width="200dp"
+        android:id="@+id/textoCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="531dp"
+        android:layout_weight="1"
+        android:text="Dato"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="194dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_gravity="center"
-        android:layout_marginStart="106dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="105dp"
-        android:background="@drawable/text_ovalado"
-        android:text="Calendario"
-        android:textAlignment="center"
-        android:textColor="@color/white" />
-
-    <Space
-        android:id="@+id/calendario"
-        android:layout_width="234dp"
-        android:layout_height="154dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="409dp"
-        android:layout_marginEnd="88dp"></Space>
-
-    <Space
-        android:id="@+id/notasCalendario"
-        android:layout_width="283dp"
-        android:layout_height="195dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="134dp"
-        android:layout_marginEnd="63dp"></Space>
-
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="109dp"></EditText>
 
 </RelativeLayout>
