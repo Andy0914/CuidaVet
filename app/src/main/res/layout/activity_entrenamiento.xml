@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Entrenamiento">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/atras"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_50"
+        app:maxImageSize="50dp"
+        app:tint="@color/yellow"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/entrenamiento"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Entrenamiento"
+        android:background="@drawable/text_ovalado"
+        />
+
+    <Button
+        android:id="@+id/button_dar_la_patita"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="Dar la patita"
+        android:textColor="@color/black"
+        app:cornerRadius="40dp"
+        app:strokeColor="@color/pink" />
+
+    <Button
+        android:id="@+id/button_sentarse"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Tips"
+        android:textColor="@color/black"
+        app:cornerRadius="40dp"
+        app:strokeColor="@color/pink" />
+
+    <Button
+        android:id="@+id/button_ir_por_la_pelota"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Ir por la pelota"
+        android:textColor="@color/black"
+        app:cornerRadius="40dp"
+        app:strokeColor="@color/pink" />
+
+
+
+</LinearLayout>

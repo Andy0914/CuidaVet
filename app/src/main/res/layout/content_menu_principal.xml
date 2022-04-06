@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_menu_principal">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dropdown_menu"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_menu_24"
+        app:maxImageSize="50dp"
+        app:tint="@color/yellow"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/calendario"
+        android:background="@drawable/febcalendario4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        app:strokeColor="@color/pink" />
+
+    <ImageButton
+        android:id="@+id/foro"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/foro_1foro4"
+        app:strokeColor="@color/pink" />
+
+    <ImageButton
+        android:id="@+id/entrenamiento"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/entrenamiento_1entrenamiento4"
+        app:strokeColor="@color/pink" />
+
+    <ImageButton
+        android:id="@+id/compras"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/ogo_a_color"
+        app:strokeColor="@color/pink" />
+
+    <ImageButton
+        android:id="@+id/mascotas"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/anadir_mascota_1mascotas4"
+        app:strokeColor="@color/pink" />
+
+    <ImageButton
+        android:id="@+id/emergencia"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/emergencia_1emergencia4"
+        app:strokeColor="@color/pink" />
+
+</RelativeLayout>
