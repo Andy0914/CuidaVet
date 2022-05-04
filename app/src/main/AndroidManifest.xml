@@ -10,6 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CuidaVet">
         <activity
+            android:name=".IniciarSesion"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/Theme.CuidaVet.NoActionBar" />
+        <activity
+            android:name=".RegistroMascota"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".CerrarSesion"
+            android:exported="false" />
+        <activity
             android:name=".AvisoPrivacidad"
             android:exported="false" />
         <activity
@@ -46,20 +63,11 @@
             android:name=".Calendario"
             android:exported="false" />
         <activity
-            android:name=".MenuPrincipal"
-            android:exported="false"
-            android:label="@string/title_activity_menu_principal"
-            android:theme="@style/Theme.CuidaVet.NoActionBar" />
-        <activity
             android:name=".Tips"
             android:exported="false" />
         <activity
             android:name=".MenuForoTips"
             android:exported="false" />
-        <activity
-            android:name=".ui.login.IniciarSesion"
-            android:exported="false"
-            android:label="@string/title_activity_iniciar_sesion" />
         <activity
             android:name=".Notas"
             android:exported="false"
